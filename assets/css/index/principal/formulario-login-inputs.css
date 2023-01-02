@@ -1,0 +1,23 @@
+.formulario--login__inputs, .formulario--login__input, .formulario--login__button{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    margin: 1px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-weight: light;
+    font-family: var(--fonte);
+}
+
+.formulario--login__senha, .formulario--login__usuario, .formulario--login__input{
+    background-color: rgba(255, 255, 255, 0.12);
+    color: var(--branco);
+}
+
+.formulario--login__senha::placeholder, .formulario--login__usuario::placeholder, .formulario--login__input::placeholder{
+    color: var(--branco);
+}
+
+.formulario--login__entrar, .formulario--login__button{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    list-style: none;
+}
+
+:root{
+    --laranja1: #FFB884;
+    --laranja2: #FFA05A;
+    --laranja3: #F68634;
+    --laranja4: #D9640D;
+    --laranja5: #AA4902;
+    --preto: #000000;
+    --branco: #ffffff;
+    --fonte: 'Rajdhani', sans-serif;
+}
+

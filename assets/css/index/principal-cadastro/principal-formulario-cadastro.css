@@ -1,0 +1,10 @@
+.principal__formulario--cadastro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    max-width: 300px;
+}
+
+.principal__formulario--cadastro{
+    display: none;
+}

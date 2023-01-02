@@ -1,0 +1,4 @@
+.formulario--login__input--usuario{
+    grid-row: 1 / 1;
+    grid-column: 1 / 3;
+}

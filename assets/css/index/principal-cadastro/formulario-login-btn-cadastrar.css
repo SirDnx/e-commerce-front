@@ -1,0 +1,12 @@
+.formulario--login__btn--cadastrar{
+    grid-row: 4 / 4;
+    grid-column: 1 / 3;
+    background-color: var(--laranja3);
+    color: var(--branco);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.formulario--login__btn--cadastrar:hover{
+    background-color: var(--laranja4);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login KaDê</title>
+    <link rel="stylesheet" href="assets/css/geral.css">
+    <link rel="stylesheet" href="assets/css/index/video.css">
+    <link rel="stylesheet" href="assets/css/index/video-style/video-item.css">
+    <link rel="stylesheet" href="assets/css/index/container-pai.css">
+    <link rel="stylesheet" href="assets/css/index/principal/principal.css">
+    <link rel="stylesheet" href="assets/css/index/principal/principal-formulario-login.css">
+    <link rel="stylesheet" href="assets/css/index/principal/formulario-login-usuario.css">
+    <link rel="stylesheet" href="assets/css/index/principal/formulario-login-senha.css">
+    <link rel="stylesheet" href="assets/css/index/principal/formulario-login-entrar.css">
+    <link rel="stylesheet" href="assets/css/index/principal/formulario-login-inputs.css">
+    <link rel="stylesheet" href="assets/css/index/principal-cadastro/principal-formulario-cadastro.css">
+    <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-input-usuario.css">
+    <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-input-email.css">
+    <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-input-senha.css">
+    <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-confirmacao-senha.css">
+    <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-btn-cadastrar.css">
+    <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-input.css">
+    <link rel="stylesheet" href="assets/css/index/btn-form/btn-form.css">
+    <script src="assets/js/btn-form.js" defer></script>
+</head>
+<body class="container--pai">
+    <header class="video">
+        <video class="video__item" src="assets/video/bg-login.mp4" autoplay loop preload></video>
+    </header>
+    <main class="principal">
+        <form id="form-login" class="principal__formulario--login">
+            <input class="formulario--login__usuario formulario--login__inputs" type="text" placeholder="usuário" required>
+            <input class="formulario--login__senha formulario--login__inputs" type="password" placeholder="senha" required>
+            <input class="formulario--login__entrar formulario--login__inputs" type="submit" value="entrar">
+        </form>
+        <button id="btnCadastrar" class="btn--form"><strong>Não possui uma conta?</strong> cadastre-se</button>
+        <form id="formCadastro" class="principal__formulario--cadastro">
+            <input class="formulario--login__input--usuario formulario--login__input" id="nome-usuario" type="text"  placeholder="usuário: User.hi@1_2">
+            <input class="formulario--login__input--email formulario--login__input" type="email" placeholder="email: usuario@gmail.com">
+            <input class="formulario--login__input--senha formulario--login__input" type="password" placeholder="digite uma senha">
+            <input class="formulario--login__confirmacao--senha formulario--login__input" type="password" placeholder="confirme a senha">
+            <input class="formulario--login__btn--cadastrar formulario--login__button" type="submit" value="cadastrar">
+        </form>
+        <button id="btnLogar" class="btn--form btn--logar"><strong>Já possui uma conta?</strong> Login</button>
+    </main>
+</body>
+</html>

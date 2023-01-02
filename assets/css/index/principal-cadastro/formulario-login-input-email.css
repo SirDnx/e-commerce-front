@@ -1,0 +1,4 @@
+.formulario--login__input--email{
+    grid-row: 2 / 2;
+    grid-column: 1 / 3;
+}
