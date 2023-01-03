@@ -1,4 +1,4 @@
-.formulario--login__inputs, .formulario--login__input, .formulario--login__button{
+.formulario--login__inputs, .formulario--login__input, .formulario--login__button, .formulario--recuperar__email,.formulario--recuperar__btn{
     text-align: center;
     padding: 1rem 0;
     font-size: 1.1rem;
@@ -6,18 +6,17 @@
     border-radius: 3px;
     text-transform: capitalize;
     font-weight: light;
-    font-family: var(--fonte);
 }
 
-.formulario--login__senha, .formulario--login__usuario, .formulario--login__input{
+.formulario--login__senha, .formulario--login__usuario, .formulario--login__input, .formulario--recuperar__email{
     background-color: rgba(255, 255, 255, 0.12);
     color: var(--branco);
 }
 
-.formulario--login__senha::placeholder, .formulario--login__usuario::placeholder, .formulario--login__input::placeholder{
+.formulario--login__senha::placeholder, .formulario--login__usuario::placeholder, .formulario--login__input::placeholder, .formulario--recuperar__email::placeholder{
     color: var(--branco);
 }
 
-.formulario--login__entrar, .formulario--login__button{
+.formulario--login__entrar, .formulario--login__button, .formulario--recuperar__btn{
     font-size: 1.5rem;
 }

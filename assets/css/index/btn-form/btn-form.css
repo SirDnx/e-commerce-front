@@ -14,6 +14,10 @@
     color: var(--branco);
 }
 
+.btn--recuperar{
+    margin-top: 1rem;
+}
+
 .btn--logar{
     display: none;
 }

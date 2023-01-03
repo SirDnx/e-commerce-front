@@ -9,4 +9,5 @@
     z-index: -100;
     background: url("../../../video/bg-login.mp4") no-repeat center;
     background-size: cover;
+    filter: brightness(.4);
 }

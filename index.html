@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="assets/css/geral.css">
     <link rel="stylesheet" href="assets/css/index/video.css">
     <link rel="stylesheet" href="assets/css/index/video-style/video-item.css">
-    <link rel="stylesheet" href="assets/css/index/container-pai.css">
     <link rel="stylesheet" href="assets/css/index/principal/principal.css">
     <link rel="stylesheet" href="assets/css/index/principal/principal-formulario-login.css">
     <link rel="stylesheet" href="assets/css/index/principal/formulario-login-usuario.css">
@@ -23,6 +22,10 @@
     <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-btn-cadastrar.css">
     <link rel="stylesheet" href="assets/css/index/principal-cadastro/formulario-login-input.css">
     <link rel="stylesheet" href="assets/css/index/btn-form/btn-form.css">
+    <link rel="stylesheet" href="assets/css/index/container-pai.css">
+    <link rel="stylesheet" href="assets/css/index/principal-recuperar/principal-formulario-recuperar.css">
+    <link rel="stylesheet" href="assets/css/index/principal-recuperar/formulario-recuperar-email.css">
+    <link rel="stylesheet" href="assets/css/index/principal-recuperar/formulario-recuperar-btn.css">
     <script src="assets/js/btn-form.js" defer></script>
 </head>
 <body class="container--pai">
@@ -36,11 +39,16 @@
             <input class="formulario--login__entrar formulario--login__inputs" type="submit" value="entrar">
         </form>
         <button id="btnCadastrar" class="btn--form"><strong>Não possui uma conta?</strong> cadastre-se</button>
+        <button class="btn--form btn--recuperar" id="btnRecuperar"><strong>Esqueceu a senha?</strong>  recuperar</button>
+        <form id="formRecuperar" class="principal__formulario--recuperar">
+            <input class="formulario--recuperar__email" type="email" placeholder="Digite o email veiculado à conta" required>
+            <input class="formulario--recuperar__btn" type="submit" value="receber código no email">
+        </form>
         <form id="formCadastro" class="principal__formulario--cadastro">
-            <input class="formulario--login__input--usuario formulario--login__input" id="nome-usuario" type="text"  placeholder="usuário: User.hi@1_2">
-            <input class="formulario--login__input--email formulario--login__input" type="email" placeholder="email: usuario@gmail.com">
-            <input class="formulario--login__input--senha formulario--login__input" type="password" placeholder="digite uma senha">
-            <input class="formulario--login__confirmacao--senha formulario--login__input" type="password" placeholder="confirme a senha">
+            <input class="formulario--login__input--usuario formulario--login__input" type="text"  placeholder="usuário: User.hi@1_2" required>
+            <input class="formulario--login__input--email formulario--login__input" type="email" placeholder="email: usuario@gmail.com" required>
+            <input class="formulario--login__input--senha formulario--login__input" type="password" placeholder="digite uma senha" required>
+            <input class="formulario--login__confirmacao--senha formulario--login__input" type="password" placeholder="confirme a senha" required>
             <input class="formulario--login__btn--cadastrar formulario--login__button" type="submit" value="cadastrar">
         </form>
         <button id="btnLogar" class="btn--form btn--logar"><strong>Já possui uma conta?</strong> Login</button>

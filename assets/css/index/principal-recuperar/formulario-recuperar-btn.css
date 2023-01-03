@@ -1,0 +1,13 @@
+.formulario--recuperar__btn{
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+    text-transform: lowercase;
+    background-color: var(--laranja3);
+    color: var(--branco);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.formulario--recuperar__btn:hover{
+    background-color: var(--laranja4);
+}

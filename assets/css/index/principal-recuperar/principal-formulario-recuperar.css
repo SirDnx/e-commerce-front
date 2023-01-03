@@ -1,0 +1,10 @@
+.principal__formulario--recuperar{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto auto;
+    max-width: 300px;
+}
+
+.principal__formulario--recuperar{
+    display: none;
+}
