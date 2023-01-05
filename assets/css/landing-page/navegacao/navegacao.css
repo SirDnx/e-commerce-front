@@ -1,0 +1,7 @@
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--laranja1);
+    height: 60vh;
+}

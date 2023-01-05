@@ -1,0 +1,6 @@
+.escritorio__informacao{
+    display: flex;
+    align-items: center;
+    background-color: var(--laranja2);
+    padding: 5rem;
+}

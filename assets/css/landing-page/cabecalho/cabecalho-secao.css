@@ -1,0 +1,6 @@
+.cabecalho__secao{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}

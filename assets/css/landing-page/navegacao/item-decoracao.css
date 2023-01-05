@@ -1,0 +1,5 @@
+.item--decoracao{
+    background: url(../../../img/bg-decoracao.jpg) no-repeat center / cover;
+    grid-row: 2 / 2;
+    grid-column: 3 / 3;
+}

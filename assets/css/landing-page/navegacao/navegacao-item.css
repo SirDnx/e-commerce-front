@@ -1,0 +1,8 @@
+.navegacao__item{
+    border-radius: 3px;
+    transition: all .3s ease;
+}
+
+.navegacao__item:hover{
+    transform: scale(1.05);
+}

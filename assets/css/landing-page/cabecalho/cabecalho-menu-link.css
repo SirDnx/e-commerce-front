@@ -1,0 +1,11 @@
+.cabecalho__menu__link{
+    text-transform: capitalize;
+    color: #dddddd;
+    margin-right: 2rem;
+    transition: .3s;
+}
+
+.cabecalho__menu__link:hover{
+    color: var(--branco);
+    text-decoration: underline;
+}

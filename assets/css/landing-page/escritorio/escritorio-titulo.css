@@ -1,0 +1,6 @@
+.escritorio__titulo{
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--preto);
+}

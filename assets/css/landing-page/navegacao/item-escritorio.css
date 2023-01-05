@@ -1,0 +1,6 @@
+.item--escritorio{
+    background-image: url(../../../img/bg-escritorio.jpg);
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: block;
+}
