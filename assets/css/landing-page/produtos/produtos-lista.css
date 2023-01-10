@@ -1,0 +1,7 @@
+.produtos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+}

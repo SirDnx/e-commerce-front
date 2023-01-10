@@ -1,0 +1,6 @@
+.produto--card{
+    width: calc(20% - 1rem);
+    margin:  0 1rem 1rem 0;
+    height: 400px;
+    background-color: var(--branco);
+}

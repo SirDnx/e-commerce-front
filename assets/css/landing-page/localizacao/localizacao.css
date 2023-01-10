@@ -1,0 +1,8 @@
+.localizacao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--laranja1);
+    padding: 2rem 0;
+}

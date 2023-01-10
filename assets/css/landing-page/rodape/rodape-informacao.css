@@ -1,0 +1,7 @@
+.rodape__informacao{
+    text-align: center;
+}
+
+.rodape__informacao p, .rodape__informacao a{
+    color: var(--branco);
+}

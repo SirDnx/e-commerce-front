@@ -1,0 +1,29 @@
+.botao--topo{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--branco);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+}
+    
+.botao--topo.active{
+    opacity: 1;
+    visibility: visible;
+}
+    
+.arrow{
+    border: solid var(--preto);
+    border-width: 0px 7px 7px 0px;
+    padding: 5px;
+    display: inline-block;
+    transform: rotate(-135deg);
+}

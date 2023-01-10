@@ -1,7 +1,7 @@
 .navegacao__nav{
     width: 45%;
-    height: 90%;
-    margin-right:.51rem;
+    height: 95%;
+    margin-right:2rem;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 33.33% 33.33% 33.33%;
