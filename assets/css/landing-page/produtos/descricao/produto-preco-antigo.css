@@ -1,0 +1,6 @@
+.produto__preco--antigo{
+    text-decoration: line-through;
+    font-size: .8rem;
+    font-weight: 100;
+    color: #808080
+}

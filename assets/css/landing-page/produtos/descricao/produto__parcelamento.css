@@ -1,0 +1,7 @@
+.produto__parcelamento{
+    color: var(--preto);
+}
+
+.produto__parcelamento--destaque{
+    color: var(--verde-descricao-produto);
+}

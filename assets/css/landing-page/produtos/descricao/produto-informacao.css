@@ -1,0 +1,6 @@
+.produto__informacao{
+    color: var(--preto);
+    font-size: .9rem;
+    text-transform: capitalize;
+    margin-top: .5rem;
+}

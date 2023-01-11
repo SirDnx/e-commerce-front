@@ -1,0 +1,5 @@
+.produto__frete{
+    font-weight: bold;
+    margin-top: 1rem;
+    color: var(--verde-descricao-produto);
+}

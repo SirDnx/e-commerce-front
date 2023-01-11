@@ -1,6 +1,13 @@
 .produto--card{
     width: calc(20% - 1rem);
     margin:  0 1rem 1rem 0;
-    height: 400px;
+    height: 420px;
     background-color: var(--branco);
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.produto--card:hover{
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, .2);
+    transform: scale(1.03);
 }
